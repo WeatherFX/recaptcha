@@ -1,3 +1,14 @@
+# Google reCaptcha for Laravel 5 (and 6?)
+
+@Javi: This is an abandoned reCaptcha integration for laravel 5,
+I am trying to make it work with laravel 6 too.
+
+
+
+**Original Readme**
+
+
+
 # Abandoned
 
 All good things must come to an end. The sad fact is that I don't have time to maintain this package, so the release of Laravel 6 is as good as any to make a clean break. You should take a look at the forks to see if anyone is carrying on the torch.
