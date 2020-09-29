@@ -1,6 +1,6 @@
 {
     "name": "biomemakers/recaptcha",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "description": "reCAPTCHA Validator for Laravel 5 and 6",
 	"keywords": ["recaptcha", "captcha", "laravel"],
 	"license": "MIT",
@@ -29,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "3.0-dev"
         }
     },
     "minimum-stability": "dev"
