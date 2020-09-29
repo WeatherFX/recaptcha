@@ -1,6 +1,6 @@
 {
     "name": "biomemakers/recaptcha",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "reCAPTCHA Validator for Laravel 5 and 6",
 	"keywords": ["recaptcha", "captcha", "laravel"],
 	"license": "MIT",
@@ -20,9 +20,6 @@
         "illuminate/support": "~5.1||~6.0"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-4": {
             "Greggilbert\\Recaptcha\\": "src/"
         }
