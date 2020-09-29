@@ -76,6 +76,14 @@ class Recaptcha
      */
     protected function extractDataParams($options = [ ])
     {
-        return array_only($options, $this->dataParameterKeys);
+        return $this->array_only($options, $this->dataParameterKeys);
     }
+
+
+    // This was a laravel helper
+    private function array_only($array, $keys){
+
+        return array_intersect_key( $array, array_flip((array) $keys) );
+    }
+
 }

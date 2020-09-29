@@ -1,18 +1,22 @@
 {
     "name": "biomemakers/recaptcha",
-    "description": "reCAPTCHA Validator for Laravel 5",
-	"keywords": ["recaptcha", "captcha", "laravel", "laravel5"],
-	"homepage": "http://github.com/greggilbert/recaptcha",
+    "version": "1.0.0",
+    "description": "reCAPTCHA Validator for Laravel 5 and 6",
+	"keywords": ["recaptcha", "captcha", "laravel"],
 	"license": "MIT",
-    "abandoned": true,
+    "abandoned": false,
     "authors": [
         {
             "name": "Greg Gilbert",
             "email": "greg@greg-gilbert.com"
+        },
+        {
+            "name": "Javier",
+            "email": "javier@biomemakers.com"
         }
     ],
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=7.2",
         "illuminate/support": "~5.1||~6.0"
     },
     "autoload": {
@@ -25,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.2-dev"
+            "dev-master": "1.0-dev"
         }
     },
     "minimum-stability": "dev"
