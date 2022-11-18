@@ -1,6 +1,6 @@
 {
-    "name": "biomemakers/recaptcha",
-    "version": "3.0.1",
+    "name": "weatherfx/recaptcha",
+    "version": "1.0.0",
     "description": "reCAPTCHA Validator for Laravel 5 and 6",
 	"keywords": ["recaptcha", "captcha", "laravel"],
 	"license": "MIT",
