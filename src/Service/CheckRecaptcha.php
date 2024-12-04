@@ -40,7 +40,7 @@ class CheckRecaptcha implements RecaptchaInterface
 
         $apiResponse = '';
 
-        if (false == ( $fs = @fsockopen(self::VERIFY_SERVER, 80) )) {
+        if (!($fs = @fsockopen(self::VERIFY_SERVER, 80))) {
             throw new \Exception('Could not open socket');
         }
 
